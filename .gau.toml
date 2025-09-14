@@ -1,10 +1,10 @@
-threads = 2
+threads = 20
 verbose = false
-retries = 15
-subdomains = false
+retries = 5
+subdomains = true
 parameters = false
 providers = ["wayback","commoncrawl","otx","urlscan"]
-blacklist = ["ttf","woff","svg","png","jpg"]
+blacklist = ["ttf","woff","svg","png","jpg","gif","ico","css","pdf","mp4","mp3"]
 json = false
 
 [urlscan]
@@ -16,4 +16,4 @@ json = false
   matchstatuscodes = []
   matchmimetypes = []
   filterstatuscodes = []
-  filtermimetypes = ["image/png", "image/jpg", "image/svg+xml"]
+  filtermimetypes = ["image/png","image/jpg","image/svg+xml","image/gif"]

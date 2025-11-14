@@ -49,7 +49,7 @@ $ gau -h
 
 
 ## Configuration Files
-gau automatically looks for a configuration file at `$HOME/.gau.toml` or`%USERPROFILE%\.gau.toml`. You can point to a different configuration file using the `--config` flag. **If the configuration file is not found, gau will still run with a default configuration, but will output a message to stderr**.
+gau automatically looks for a configuration file at `$HOME/.gau.toml` or`nano ~/.gau.toml`. You can point to a different configuration file using the `--config` flag. **If the configuration file is not found, gau will still run with a default configuration, but will output a message to stderr**.
 
 You can specify options and they will be used for every subsequent run of gau. Any options provided via command line flags will override options set in the configuration file.
 
